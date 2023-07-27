@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MyPortfolio</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <table class="menu">
+                <tr>
+                    <td><a class="home" onclick="home()">HOME</a></td>
+                    <td><a class="aboutme">ABOUT ME</a></td>
+                    <td><a class="skills">SKILLS</a></td>
+                    <td><a class="contact">CONTACT</a></td>
+                </tr>
+            </table>
+      </div>
+
+      <div class="profile">
+        <br>
+            <img class="prof" src="Photoshop24082023.png">
+      </div>
+            <div class="home"  id="home-page">
+                <h3 class="htitle"> Hi there! i'm<span class="spancolor-name"> Sakthivel</span></h3>
+                <!--  -->
+                <p id="hinfo" style="font-size:25px">
+                    A passionate front-end developer with a keen eye <br>
+                     for creating visually stunning and <br>
+                      user-friendly web experiences.
+                </p>
+            </div>
+
+                <!-- <a class="mr1">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        width="50" height="16" 
+                        fill="currentColor" 
+                        class="bi bi-arrow-right" 
+                        viewBox="0 0 16 16"
+                        >
+                        <path fill-rule="evenodd" 
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+            </a>
+            
+        </div> -->
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script>
+                const homepage= document.getElementsByClassName().value;
+                const aboutpage= document.getElementsByClassName().value;
+                const skillpage= document.getElementsByClassName().value;
+                const conatactpage= document.getElementsByClassName().value;
+                var contetnt;
+                function home(){
+                    if(contetnt == homepge){
+                        document.getElementById("info").innerHTML=" A passionate front-end developer with a keen eye \n for creating visually stunning and \n user-friendly web experiences.";
+                }
+                }
+                
+            </script>
+    </body>
+</html>
